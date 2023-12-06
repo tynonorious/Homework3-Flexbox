@@ -1,1 +1,58 @@
 /*Schrijf hier jouw CSS*/
+
+/*Eerst gaan we de hele pagina in een column omzetten*/
+
+#all {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*header section*/
+/*is not allowed to shrink*/
+#top {
+    flex-basis: 15vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/*main section*/
+#mid {
+    display: flex;
+    flex-direction: row;
+    min-height: 70vh;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#mid article {
+    order: 0;
+    flex-basis: 55%
+    flex-grow: 8;
+    flex-shrink: 1;
+}
+
+#mid nav {
+    order: 2;
+    flex-basis: 22.5%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#mid aside {
+    order: 1;
+    flex-basis: 22.5%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+/*bottom section*/
+/*is not allowed to shrink*/
+#butthehe {
+    flex-basis: 15vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/*helaas weet ik niet precies hoezo mijn article zo klein wordt, ik heb het een tijdje geprobeerd maar zal verder moeten gaan*/

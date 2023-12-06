@@ -1,1 +1,73 @@
 /*Schrijf hier jouw CSS*/
+
+/*Opdracht1*/
+
+.list-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Opdracht2*/
+
+.list-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-2 li {
+    flex: 1;
+}
+
+/*Opdracht3*/
+
+.list-3 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#o3i1 {
+    align-self: flex-start;
+    order: 1;
+}
+
+#o3i2 {
+    align-self: center;
+    order: 2;
+}
+
+#o3i3 {
+    align-self: flex-end;
+    order: 3;
+}
+
+/*Opdracht4*/
+
+.list-4 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+    /*in mijn browser ziet 15px meer zoals de afbeelding uit dus heb ik dat gekozen i.p.v. 10*/
+}
+
+/*Opdracht5*/
+
+.list-5 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

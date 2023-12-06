@@ -1,1 +1,22 @@
 /*Schrijf hier jouw CSS*/
+
+.main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.outer-col-1 {
+    flex-basis: 20vw;
+}
+
+.outer-col-2 {
+    flex-basis: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.outer-col-2 header {
+    flex-basis: 15%;
+}
+
